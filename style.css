@@ -1,0 +1,262 @@
+:root {
+  --marrom: #714A34;
+  --marrom-escuro: #40211B;
+  --dourado: #C9A66B;
+  --dourado-claro: #D6BC85;
+  --fundo-claro: #F2E3DA;
+  --card: #F9F1ED;
+  --texto-claro: #F2E3DA;
+  --fonte: "Nunito", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background-color: var(--marrom); 
+    height: 100vh; /* 100% da altura da tela (Viewport Height) */
+    
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center;     /* Centraliza na vertical */
+}
+
+.logo-principal {
+    width: 450px; /* Tamanho base da logo */
+    max-width: 80%; /* Garante que ela não vase da tela em celulares pequenos */
+    height: auto;   /* Mantém a proporção da imagem correta */
+}
+
+.conteudo-principal {
+    background-color: var(--fundo-claro); /* Bege claro do fundo da página */
+    padding: 80px 20px;
+    font-family: var(--fonte); /* Ajusta para a tipografia usada no Figma */
+    color: var(--marrom-escuro); /* Castanho escuro para o texto */
+}
+
+.vitrine {
+    display: flex;
+    justify-content: center;
+    gap: 120px; /* Espaço entre os cartões */
+    flex-wrap: wrap; /* Permite que os cartões desçam em ecrãs mais pequenos */
+    margin-bottom: 60px;
+}
+
+.cartao-produto {
+    background-color: var(--card); /* Bege muito claro do cartão */
+    padding: 30px;
+    border-radius: 20px; /* Cantos arredondados */
+    text-align: center;
+    width: 450px; /* Largura fixa para manter o padrão */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Sombra muito suave */
+}
+
+.imagem-placeholder {
+    background-color: var(--dourado); /* Cor aproximada do retângulo */
+    height: 390px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.imagem-produto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+    border-radius: 10px;
+}
+
+.titulo-produto {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.descricao {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.preco-produto {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.botao-comprar {
+    background-color: var(--dourado); /* Mesma cor do placeholder no teu design */
+    color: var(--card); /* Texto escuro para contraste */
+    border: none;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: opacity 0.8s ease;
+}
+
+.botao-comprar:hover {
+    background-color: var(--marrom-escuro);
+    color: var(--dourado);
+}
+
+.separador {
+    border: none;
+    border-top: 1px solid var(--marrom-escuro); 
+    margin: 0 auto 60px auto;
+}
+
+.instrucoes {
+    display: flex;
+    justify-content: center;
+    gap: 280px;
+    flex-wrap: wrap;
+}
+
+.passo {
+    text-align: center;
+}
+
+.icone-instrucao {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+}
+
+.texto-passo {
+    font-size: 1.6rem;
+    margin-bottom: 100px;
+}
+
+.simulacao {
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40%;
+}
+
+.texto-simula {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.botao-simula {
+    background-color: var(--dourado);
+    color: var(--card);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: opacity 0.8s ease;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.botao-simula:hover {
+    background-color: var(--marrom-escuro);
+    color: var(--dourado);
+}
+
+.rodape {
+    background-color: var(--marrom); 
+    color: var(--fundo-claro); 
+    padding: 20px 20px;
+    font-family: var(--fonte);
+}
+
+.rodape-conteudo {
+    display: flex;
+    justify-content: center; /* Separa as duas colunas */
+    max-width: 1800px;
+    padding-bottom: 20px;
+    flex-wrap: wrap; /* Permite ajuste em ecrãs de telemóvel */
+    gap: 30%;
+}
+
+.rodape-marca {
+    align-items: center;
+    margin-top: 1.5%;
+}
+
+.logo-rodape {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.rodape-marca p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.rodape-contatos h3 {
+    color: var(--dourado);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.rodape-contatos ul {
+    list-style: none;
+}
+
+.rodape-contatos li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+}
+
+.icone-contato {
+    width: 20px;
+    height: 20px;
+}
+
+.linha-rodape {
+    border: none;
+    border-top: 1px solid var(--fundo-claro);
+    margin: 0 auto 20px auto;
+}
+
+.creditos {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--fundo-claro);
+}
+
+@media (max-width: 938px) {
+    
+    /* 1. Ajustes Gerais no Conteúdo */
+    .conteudo-principal {
+        padding: 40px 15px; /* Reduz o espaçamento lateral e superior no mobile */
+    }
+
+    /* 2. Ajustes na Vitrine */
+    .cartao-produto {
+        width: 100%; /* Faz o cartão ocupar toda a largura disponível */
+        max-width: 320px; /* Mas sem ficar gigante em tablets */
+    }
+
+    /* 3. Ajustes nas Instruções (Como Funciona) */
+    .instrucoes {
+        flex-direction: column; /* Coloca um passo abaixo do outro */
+        gap: 40px; /* Reduz o espaço gigante de 100px para 40px */
+        align-items: center;
+    }
+
+    /* 4. Ajustes no Rodapé */
+    .rodape-conteudo {
+        flex-direction: column; /* Empilha a marca e os contatos */
+        text-align: center; /* Centraliza os textos todos */
+        gap: 50px;
+    }
+
+    .rodape-contatos li {
+        justify-content: center; /* Centraliza os ícones e textos dos contatos */
+    }
+    
+    .rodape {
+        padding: 40px 20px 20px 20px; /* Reduz o padding do rodapé */
+    }
+}

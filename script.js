@@ -34,3 +34,7 @@ function simularCompra() {
 
     alert(resumo);
 }
+
+function exibirMensagem() {
+    alert("Clique em \"Simular Compra\" para realizar uma compra em nosso site!");
+}

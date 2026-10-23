@@ -8,7 +8,7 @@
 ---
 
 ## 🏪 Sobre a Loja
-A **Mais Um Brigadeiros** é uma loja fictícia de doces artesanais, focada em entregar a melhor experiência desde o primeiro clique. O layout foi pensado para ser convidativo, utilizando um esquema de cores aconchegante (tons de marrom e bege) e uma navegação simples baseada em uma única página.
+A **Mais Um Brigadeiros** é um empreendimento próprio do aluno que utilizou do desafio 1 de sua trilha de desenvolvimento mobile para criar uma possível lojinha online de seus doces artesanais. A loja online da Mais Um é focada em entregar a melhor experiência desde o primeiro clique. O layout foi pensado para ser convidativo, utilizando um esquema de cores aconchegante (tons de marrom e bege) e uma navegação simples baseada em uma única página.
 
 ### Produtos e Preços
 Atualmente, a vitrine destaca três sabores principais:
@@ -24,20 +24,23 @@ Atualmente, a vitrine destaca três sabores principais:
 - **JavaScript (Vanilla):** Lógica de simulação de compra usando funções nativas do navegador (`prompt` e `alert`).
 
 ### Como Executar
+#### Primeira alternativa (baixando o código fonte)
 1. Faça o download ou clone este repositório.
 2. Certifique-se de que todos os arquivos (HTML, CSS e imagens SVG/PNG) estão na mesma pasta.
 3. Dê um duplo clique no arquivo `index.html` para abri-lo no seu navegador padrão (Google Chrome, Firefox, Safari, etc). Nenhuma instalação adicional é necessária.
 
+#### Segunda alternativa (navegando pelo site hospedado)
+- Clique no link abaixo para navegar diretamente até a primeira versão do site da Mais Um Brigadeiros (coloquei o site no ar usando a Vercel).
+https://maisumbrigadeiros.vercel.app/
 ---
 
-## 📸 Captura de Tela
-*(Adicione uma imagem chamada `screenshot.png` na raiz do projeto)*
-![Captura de Tela da Página Inicial](./screenshot.png)
+## 📸 Tela Inicial
+![Captura de Tela da Página Inicial](.assets/tela-inicial.png)
 
 ---
 
 ## 🧪 Testes Realizados
-- **Teste de Responsividade:** A página foi testada utilizando o DevTools do navegador (F12) simulando telas de celulares (ex: iPhone, Galaxy) para garantir que o Flexbox e as regras de `@media (max-width: 768px)` funcionam corretamente.
+- **Teste de Responsividade:** A página foi testada utilizando o DevTools do navegador (F12) simulando telas de celulares (ex: iPhone, Galaxy) para garantir que o Flexbox e as regras de `@media (max-width: 938px)` funcionam corretamente.
 - **Teste de Lógica (JavaScript):**
   - Inserção de valores numéricos válidos.
   - Inserção de valores nulos (0) ou vazios, verificando se o sistema lida corretamente sem quebrar o cálculo (tratamento de `NaN`).
@@ -55,6 +58,6 @@ Aprendi a dominar o uso do **Flexbox** (`display: flex`, `justify-content` e `al
 ---
 
 ## 🤖 Uso de Inteligência Artificial
-**Como ajudou:** Utilizei o Gemini como um "tutor de código" para traduzir o meu design feito no Figma para HTML e CSS reais.
-**O que foi adaptado:** A IA sugeriu as estruturas base de CSS e JS. Eu adaptei as cores exatas, os tamanhos das fontes, a disposição dos botões para combinar perfeitamente com o meu protótipo e ajustei os textos das mensagens do JavaScript.
-**Como verifiquei:** Após cada sugestão de código (cabeçalho, vitrine, rodapé e lógica JS), eu aplicava no meu arquivo local, salvava e recarregava a página no navegador para validar se o comportamento visual e interativo correspondia ao esperado.
+**Como ajudou:** Utilizei a Inteligência Artificial como um "tutor e avaliador de código" para traduzir o meu design feito no Figma para HTML e CSS reais.
+**O que foi adaptado:** A IA sugeriu as estruturas base de CSS e JS. Eu adaptei as cores exatas, os elementos, os tamanhos das fontes, a disposição dos botões para combinar perfeitamente com o meu protótipo e ajustei os textos das mensagens e a lógica do JavaScript.
+**Como verifiquei:** Após cada sugestão de código (cabeçalho, vitrine, rodapé e lógica JS), eu aplicava no meu arquivo local, salvava, adaptava/melhorava e recarregava a página no navegador para validar se o comportamento visual e interativo correspondia ao esperado.

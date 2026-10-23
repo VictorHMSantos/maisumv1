@@ -17,7 +17,7 @@
 
 .cabecalho {
     background-color: var(--marrom); 
-    height: 100vh; /* 100% da altura da tela (Viewport Height) */
+    height: 85vh; /* 100% da altura da tela (Viewport Height) */
     display: flex;
     justify-content: center; /* Centraliza na horizontal */
     align-items: center;     /* Centraliza na vertical */

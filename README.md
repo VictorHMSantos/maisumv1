@@ -58,6 +58,6 @@ Aprendi a dominar o uso do **Flexbox** (`display: flex`, `justify-content` e `al
 ---
 
 ## 🤖 Uso de Inteligência Artificial
-**Como ajudou:** Utilizei a Inteligência Artificial como um "tutor e avaliador de código" para traduzir o meu design feito no Figma para HTML e CSS reais.
-**O que foi adaptado:** A IA sugeriu as estruturas base de CSS e JS. Eu adaptei as cores exatas, os elementos, os tamanhos das fontes, a disposição dos botões para combinar perfeitamente com o meu protótipo e ajustei os textos das mensagens e a lógica do JavaScript.
-**Como verifiquei:** Após cada sugestão de código (cabeçalho, vitrine, rodapé e lógica JS), eu aplicava no meu arquivo local, salvava, adaptava/melhorava e recarregava a página no navegador para validar se o comportamento visual e interativo correspondia ao esperado.
+- **Como ajudou:** Utilizei a Inteligência Artificial como um "tutor e avaliador de código" para traduzir o meu design feito no Figma para HTML e CSS reais.
+- **O que foi adaptado:** A IA sugeriu as estruturas base de CSS e JS. Eu adaptei as cores exatas, os elementos, os tamanhos das fontes, a disposição dos botões para combinar perfeitamente com o meu protótipo e ajustei os textos das mensagens e a lógica do JavaScript.
+- **Como verifiquei:** Após cada sugestão de código (cabeçalho, vitrine, rodapé e lógica JS), eu aplicava no meu arquivo local, salvava, adaptava/melhorava e recarregava a página no navegador para validar se o comportamento visual e interativo correspondia ao esperado.

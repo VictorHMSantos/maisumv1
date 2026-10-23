@@ -35,7 +35,7 @@ https://maisumbrigadeiros.vercel.app/
 ---
 
 ## 📸 Tela Inicial
-![Captura de Tela da Página Inicial](.assets/tela-inicial.png)
+![Captura de Tela da Página Inicial](assets/tela-inicial.png)
 
 ---
 
